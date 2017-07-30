@@ -4,12 +4,18 @@ import { FormsModule } from '@angular/forms';
 import { HttpModule } from '@angular/http';
 
 import { AppComponent } from './app.component';
+import { HeroDetailComponent } from './common/hero-detail.component';
 import { Lesson3Component } from './lesson3/lesson3.component';
+import { Lesson5Component } from './lesson5/lesson5.component';
+import { DashboardComponent } from './dashboard/dashboard.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    Lesson3Component
+    HeroDetailComponent,
+    Lesson3Component,
+    Lesson5Component,
+    DashboardComponent
   ],
   imports: [
     BrowserModule,
@@ -18,8 +24,7 @@ import { Lesson3Component } from './lesson3/lesson3.component';
   ],
   providers: [],
   bootstrap: [
-    AppComponent,
-    Lesson3Component
+    AppComponent
   ]
 })
 export class AppModule { }

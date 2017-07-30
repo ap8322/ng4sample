@@ -4,7 +4,7 @@ export class Hero {
   id: number;
   name: string;
 }
- 
+
 const HEROES: Hero[] = [
   { id: 11, name: 'Mr. Nice' },
   { id: 12, name: 'Narco' },
